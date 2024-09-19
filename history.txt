@@ -1,0 +1,33 @@
+copy con Spisok.txt
+Голодяева
+Бакаева
+Романенко
+Горбунов
+Косарев
+Соловьева
+
+sort Spisok.txt> Spisok1.txt
+doskey /history
+dir /?>dir.txt
+copy /?>copy.txt
+xcopy /? xcopy.txt
+xcopy /? > xcopy.txt
+chcp 65001
+dir /? > dir.txt
+copy /? > copy.txt
+xcopy /? > xcopy.txt
+dir C:\Windows
+dir C:\Windows>txt.
+dir C:\Windows\*.jpg
+/help
+help
+dir C:\Windows\*\*.jpg
+dir C:\Windows\*.jpg
+dir C:\Windows*\*.jpg
+dir C:\*\*.jpg
+dir C:\*.jpg
+dir C:\Windows\*.png
+dir C:\Windows\
+dir C:\Windows*\
+dir C:\Windows\*exe
+doskey /history>history.txt
